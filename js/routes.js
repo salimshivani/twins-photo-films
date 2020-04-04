@@ -1,0 +1,10 @@
+app.config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
+	$locationProvider.hashPrefix('!');
+	$routeProvider.when('/login',{
+		templateUrl:"login.html",
+		controller:"loginCtrl"
+	});
+	$routeProvider.otherwise({
+		redirectTo:'/login'
+	})
+}]);
