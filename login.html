@@ -1,0 +1,32 @@
+<form method="POST" ng-controller="loginCtrl">
+	<div class="container">
+		<div class="container-pad wrapper">
+			<div class="login-view">
+				<div class="form-field">
+					<input type="password" id="password" ng-model="password" placeholder="Password" ng-required />
+					<span class="error" ng-if="password == ''">Required</span>
+				</div>
+				<!-- div form-field ends -->
+				
+			</div>
+			<!-- div login-view ends -->
+
+		</div>
+		<!-- div container-pad, wrapper ends -->
+
+	</div>
+	<!-- div container ends -->
+
+	<footer>
+		<div class="footer-pad wrapper">
+			<div class="form-field">
+				<button id="login-button" ng-click="login();">Login</button>
+			</div>
+			<!-- div form-field ends -->
+
+		</div>
+		<!-- div footer-pad, wrapper ends -->
+
+	</footer>
+	<!-- footer ends -->
+</form>
