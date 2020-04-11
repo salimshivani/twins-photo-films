@@ -1,0 +1,20 @@
+<div class="pa-carousel-widget" style="width:100%; height:480px;"
+	data-link="https://photos.app.goo.gl/KYs7RR1PBWU34K6q7" data-title="Testing album"
+	data-description="20 new photos · Album by Balaji Sound" ng-controller="imagesCtrl">
+
+	<img src="{{ img }}" height="95px" width="95px" data-toggle="modal" data-target="#image-view" ng-click="showImage(img);" ng-repeat="img in images" />
+
+	<div class="modal" id="image-view">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="hideImage()"><i class="fa fa-close"></i></button>
+					<h4>Close</h4>
+				</div>
+				<div class="modal-body">
+					<img style="-webkit-user-select: none;margin: auto;" src="{{ image }}" height="auto" width="auto" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
