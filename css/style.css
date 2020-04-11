@@ -1,0 +1,17 @@
+/** Login View CSS **/
+.container .login-view {
+	align-self: center;
+	display: flex;
+	flex: 1;
+	flex-flow: column;
+	margin: 0px auto;
+}
+
+/** Images Screen CSS **/
+img {
+    margin: 4px;
+}
+.modal-header h4 {
+    display: flex;
+    margin: 4px;
+}
