@@ -1,0 +1,25 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "Mobile app for Twins Photo Films",
+  "main": "app.js",
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "node": "^13.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salimshivani/twins-photo-films.git"
+  },
+  "author": "Mohammedsalim Shivani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salimshivani/twins-photo-films/issues"
+  },
+  "homepage": "https://github.com/salimshivani/twins-photo-films#readme"
+}
