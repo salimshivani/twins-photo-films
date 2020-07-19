@@ -42,7 +42,7 @@
 			controller:"loginCtrl"
 		})
 		.when('/images',{
-			templateUrl:"/images.html",
+			templateUrl:"images.html",
 			controller:"imagesCtrl"
 		})
 		.otherwise({
