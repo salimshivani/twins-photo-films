@@ -38,7 +38,7 @@
 
 	app.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider.when('/login',{
-			templateUrl:"/login.html",
+			templateUrl:"../login.html",
 			controller:"loginCtrl"
 		})
 		.when('/images',{
