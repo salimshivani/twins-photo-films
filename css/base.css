@@ -129,12 +129,12 @@ form {
 }
 
 footer button {
-	background: #4f7400;
+	background: #000000;
 	color: #ffffff;
 }
 
 input {
-	border: 1px solid #81A300;
+	border: 1px solid #000000;
 	margin: 4px 0px;
 	padding: 8px 10px;
 }
